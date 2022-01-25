@@ -1,4 +1,4 @@
-package ýnterfaceAbstractDemo;
+package Ã½nterfaceAbstractDemo;
 
 import Abstract.BaseCustomerManager;
 import Adapters.MernisServiceAdapter;
@@ -13,7 +13,7 @@ public class Main {
 		
 		BaseCustomerManager customerManager=new StarbucksCustomerManager(new MernisServiceAdapter());
 		
-		customerManager.Save(new Customer(1,"yunus emre","kurt",1994,"23797754048"));
+		customerManager.Save(new Customer(1,"emre","kurt",1995,"13297654879"));
 		
 		
 	}
